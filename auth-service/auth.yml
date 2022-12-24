@@ -1,2 +1,3 @@
-gaurav:
-  name: gaurav
+auth:
+  server:
+    port: 8081
