@@ -7,6 +7,17 @@ spring:
   jpa:
     datasource:
       initialization-mode: always
+        tomcat:
+          initial-size: 10
+          max-wait: 120000
+          max-active: 50
+          max-idle: 15
+          min-idle: 8
+          default-auto-commit: true
+          test-on-borrow: true
+          validation-query: SELECT 1
+          test-while-idle: true
+          remove-abandoned: true
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
