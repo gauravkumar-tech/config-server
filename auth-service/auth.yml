@@ -7,9 +7,6 @@ spring:
   jpa:
     datasource:
       initialization-mode: always
-    hibernate:
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:
       hibernate:
         show_sql: true
