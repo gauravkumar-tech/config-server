@@ -25,3 +25,5 @@ logging:
         type: trace
       springframework:
         security: DEBUG
+security:
+  signing-key: <signing-key>
